@@ -27,6 +27,6 @@ def health():
 @app.get("/volunteers")
 def volunteers():
     return [
-        {"id": 1, "name": "Daniel Gay", "email": "daniel@example.com"},
+        {"id": 1, "name": "Eli Gay", "email": "daniel@example.com"},
         {"id": 2, "name": "Daniel Levy", "email": "daniel@example.com"},
     ]
